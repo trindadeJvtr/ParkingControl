@@ -11,6 +11,6 @@ public interface ParkingSpotRepository extends JpaRepository<ParkingSpotModel, U
 
 boolean existsByLicensePlateCar(String licensePlateCar);
 boolean existsByParkingSpotNumber(String licensePlateCar);
-boolean existsByApartmentAndBlock(String licensePlateCar);
+boolean existsByApartmentAndBlock(String licensePlateCar, String block);
 
 }
